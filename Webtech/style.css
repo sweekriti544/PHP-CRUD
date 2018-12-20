@@ -1,0 +1,151 @@
+
+form{
+    text-align: center;
+    margin-top: 0px;
+}
+
+#box{
+   width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: black;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    height: 350px;
+    margin: 25px;
+}
+#regbox{
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: black;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    height: 430px;
+    margin: 25px;
+}
+
+#textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 3px;
+    border-bottom: 1px;
+    color: black;
+
+}
+
+#textbox input{
+    padding: 10px;
+    width: 100%;
+    border-bottom: #0277bd;
+}
+h1{
+    font-family: sans-serif;
+    float: left;
+    margin-bottom: 30px;
+    padding: 3px 0;
+    border-bottom: 6px solid #0277bd;
+}
+.btn{
+
+    padding: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: #0277bd;
+    font-family: SansSerif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+cursor: pointer;
+}
+
+.sub-btn{
+    padding: 50px;
+    width: 100%;
+    background-color: #0277bd;
+    font-family: SansSerif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#students {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#students td, #students th {
+    border: 1px solid #ddd;
+    padding: 8px;
+
+
+}
+
+#students tr:nth-child(even){background-color: #f2f2f2;}
+
+#students tr:hover {background-color: #ddd;}
+
+#students th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: black;
+}
+
+.w3-blue{
+    border-radius: 12px;
+}
+
+.w3-red{
+    border-radius: 12px;
+}
+
+.w3-green{
+    border-radius: 12px;
+    margin-bottom: 15px;
+    float: right;
+}
+
+
+.bg-img {
+    background-image: url("download.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
